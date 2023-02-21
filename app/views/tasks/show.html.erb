@@ -1,0 +1,9 @@
+<h1><%= @task.title %></h1>
+<h3>Details</h3>
+<p class="fs-5"><%= @task.details %></p>
+<h3>Completed</h3>
+<p class="fs-5"><%= @task.completed %></p>
+<div class="links d-flex justify-content-start">
+  <%= link_to 'Edit', edit_task_path %></p>
+  <%= link_to 'Back', tasks_path %></p>
+</div>
